@@ -1,0 +1,125 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    color: #222
+}
+h2{
+    font-size: 32px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #565656;
+}
+a:hover { text-decoration: none }
+.blog-box-bg-1{background-image: url(../img/blog-bg-1.jpg);}
+.blog-box-bg-2{background-image: url(../img/blog-bg-2.jpg)}
+.blog-box-bg-3{background-image: url(../img/blog-bg-3.jpg)}
+
+.section-title{
+    text-align: center;
+    color: #565656;
+    font-size: 17px; 
+    margin-bottom: 70px;
+    
+}
+.section-title h2{
+    color: #222;
+}
+
+section.section-padding{
+    padding: 100px 0;
+}
+.blog-box-bg {
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  background-color: #ddd;
+  border: 1px solid #fdaf67;
+}
+.blog-box-bg{
+  border-bottom: 0px solid;
+}
+.blog-box-content {
+  border: 1px solid #f4f4f4;
+  padding: 20px;
+}
+.blog-meta i.fa {
+  color: #fdaf67;
+}
+.blog-meta a{
+  color: #565656;
+}
+
+.blog-meta {
+  font-size: 14px;
+}
+.blog-meta span {
+  padding-right: 10px;
+}
+.blog-meta span:last-child {
+  margin-right: 0px;
+}
+.blog-box-content h3 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.blog-readmore-btn {
+  background: #fd8e2e;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 5px;
+  transition: .2s;
+}
+.blog-readmore-btn:hover {
+  background: #333;
+  color: #fff;
+}
+.single-blog-box:hover .blog-box-content {
+  border-color: #fd8e2e;
+}
+.separator{
+    border: 2px solid #FD9014;
+    position:relative;
+    width: 60px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.separator:before{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 20px;
+    background: #222222;
+    left: 31%;
+    margin-top: -2px;
+}
