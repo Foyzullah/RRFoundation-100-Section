@@ -1,0 +1,113 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+body {
+  color: #787978;
+}
+h1, h2, h3,h4 {
+  color: #333;
+}
+.section-padding {
+  padding: 50px 0;
+}
+.section-title {
+  text-align: center;
+  line-height: 1.9;
+  margin-bottom: 47px;
+}
+.section-title h2 span {
+  color: #26a65b;
+}
+.single-pricing-box {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+.single-pricing-box:hover{
+    border-color: #2fa55e;
+    box-shadow: 0 0 50px #f1f1f1;
+}
+.single-pricing-box h3.pricing-count {
+  text-transform: none;
+}
+.single-pricing-box img {
+  max-width: 63px;
+  margin-bottom: 20px;
+}
+.single-pricing-box:hover .pricing-icon img{
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+.pricing-icon {
+  text-transform: none;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.single-pricing-box h3 {
+  text-transform: uppercase;
+}
+.pricing-list {
+  text-align: left;
+  margin-bottom: 25px;
+}
+.pricing-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+    padding-left: 16px;
+    line-height: 25px;
+}
+.pricing-list ul li:before{font-family: fontAwesome;content:"\f00c";color:#2fa55e; padding-right: 10px;}
+.pricing-list ul li.off:before{content:"\f00d";color: #eb3036;}
+
+a.bordered-btn {
+  display: inline-block;
+  border: 1px solid #2fa55e;
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: #333;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+a.bordered-btn:hover{
+    background:#2fa55e;
+    color: #fff;
+}
+.pricing-list ul li:hover{
+    padding-left: 5px;
+}
+.pricing-list ul li{
+    -webkit-transition: .2s;
+    transition: .2s;
+}
