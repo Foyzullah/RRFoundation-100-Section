@@ -1,0 +1,85 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.blog-bg-1{background-image: url(../img/blog-bg-1.jpg);}
+.blog-bg-2{background-image: url(../img/blog-bg-2.jpg);}
+.blog-bg-3{background-image: url(../img/blog-bg-3.jpg);}
+.blog-bg-4{background-image: url(../img/blog-bg-4.jpg);}
+.blog-bg-5{background-image: url(../img/blog-bg-5.jpg);}
+.blog-bg-6{background-image: url(../img/blog-bg-6.jpg);}
+
+
+.container {
+  padding: 80px;
+}
+.mainmenu a {
+  color: #626262;
+}
+.mainmenu ul {
+  list-style: none;
+  text-align: right;
+}
+.mainmenu li {
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 100px;
+}
+.blog-content-imag {
+  height: 280px;
+  background-position: center;
+  background-color: #ddd;
+  background-size: cover;
+}
+.single-blog-item {
+  margin-top: 50px;
+}
+.blog-meta {
+  text-transform: uppercase;
+  margin-top: 50px;
+  color: #b4ad9e;
+  font-size: 14px;
+}
+.blog-meta a {
+  color: #b4ad9e;
+  font-size: 14px;
+  display: inline-block;
+}
+p {
+  line-height: 1.7;
+  font-size: 15px;
+}
+.single-blog-item {
+  position: relative;
+}
+h1, h2, h3, h4, h5, h6, p {
+  color: #626262;
+}
