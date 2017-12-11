@@ -1,0 +1,120 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 300;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+a:hover { text-decoration: none }
+
+
+body {
+  font-size: 15px;
+  line-height: 1.7;
+}
+.header-top-area {
+  background: #218ae6;
+  color: #fff;
+  padding: 10px 0;
+}
+.header-top-area a {
+  color: #fff;
+}
+.header-top-area .text-right i.fa {
+  padding-left: 15px;
+}
+.logo {
+  margin-top: 10px;
+}
+.header-menu-area ul {
+  list-style: none;
+  text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+.header-menu-area li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.header-menu-area li a {
+  display: block;
+  color: #535353;
+  padding: 15px;
+  padding-right: 0;
+  padding-left: 25px;
+}
+.header-menu-area li a:hover {
+  color: #218ae6;
+}
+.homepage-slider {
+  background: #218ae6;
+  color: #fff;
+}
+.homepage-slider h2 {
+  font-weight: 100;
+  font-size: 60px;
+}
+.homepage-slider p {
+  font-size: 19px;
+    padding-bottom: 15px;
+}
+.slider-btn {
+  background: #f9cf25;
+  color: #222222;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-radius: 2px;
+}
+.slider-btn i.fa {
+  padding-left: 8px;
+}
+.single-homepage-slide{
+    padding: 150px 0;
+}
+
+
+.homepage-slider .owl-dots div {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 5px;
+    transition: .3s;
+}
+.homepage-slider .owl-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.homepage-slider .owl-dots div.active{
+  background-color: #f9cf25;
+}
