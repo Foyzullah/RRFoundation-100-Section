@@ -1,0 +1,117 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.service-box-bg-1{background-image: url(../img/service-box-bg-1.jpg);}
+.service-box-bg-2{background-image: url(../img/service-box-bg-2.jpg);}
+.service-box-bg-3{background-image: url(../img/service-box-bg-3.jpg);}
+body {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #7a7a7a;
+}
+h1,  h2, h3, h4, h5, h6 {
+  color: #333;
+}
+.section-padding {
+  padding: 70px 0;
+}
+.separator span {
+  height: 5px;
+  width: 40px;
+  background: #f97230;
+  display: inline-block;
+  border-radius: 2px;
+}
+.separator span.black-color {
+  background: #333;
+  margin: 0 10px;
+  width: 20px;
+}
+.separator {
+  margin-bottom: 25px;
+}
+.section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section-heading h2 {
+  font-size: 35px;
+}
+.service-box-bg {
+  width: 100%;
+  height: 200px;
+  position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.service-box-bg h2 {
+  position: absolute;
+  background: #f97230;
+  font-size: 22px;
+  padding: 10px;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  bottom: -23px;
+  border-radius: 2px;
+  margin: 0;
+}
+
+.service-box-content {
+  padding: 35px;
+  padding-top: 50px;
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+.service-box-content a {
+  color: #f97230;
+  font-size: 18px;
+  font-weight: 700;
+  border: 1px solid #333;
+  padding: 10px 8px;
+  text-align: center;
+  line-height: 10px;
+  border-radius: 2px;
+}
+.service-box-content a i.fa {
+  margin-left: 6px;
+}
+.service-box-content p {
+  margin-bottom: 30px;
+}
+.single-sirvice-box {
+  border: 1px solid #e4e4e4;
+}
