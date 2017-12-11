@@ -1,0 +1,125 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+body {
+  font-size: 15px;
+  color: #909090;
+  line-height: 1.7;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+}
+.separator span {
+  height: 5px;
+  width: 60px;
+  background: #5ba939;
+  display: inline-block;
+  border-radius: 2px;
+}
+.separator span.dcolor {
+  background: #333;
+  width: 30px;
+  margin: 0 10px;
+}
+.separator {
+  margin-bottom: 20px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-padding {
+  padding: 70px 0;
+}
+.section-title h2 {
+  font-size: 35px;
+}
+.single-faculties-member img {
+  border: 2px solid;
+  color: #e8e8e8;
+}
+.social-icon {
+  background: #5ba939;
+  text-align: center;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -28px;
+  position: relative;
+  border-radius: 2px;
+}
+.social-icon a {
+  border: 2px solid #fff;
+  height: ;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  border-radius: 5px;
+  line-height: 30px;
+  text-align: center;
+  margin: 5px;
+  color: #fff;
+}
+.single-faculties-member h4 {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.single-faculties-member h4 span {
+  color: #5ba939;
+  display: block;
+  font-size: 80%;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.faculties-member .owl-dots div {
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  background: #5ba939;
+  left: 50%;
+  border-radius: 50%;
+  margin: 5px;
+  transition: .3s;
+}
+.faculties-member .owl-dots {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  width: 100%;
+  text-align: center;
+}
+.faculties-member .owl-dots div.active{
+  background:#333 ;
+}
