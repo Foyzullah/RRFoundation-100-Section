@@ -1,0 +1,119 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.bordered-bg-img-1{background-image: url(../img/featured-bg-1.jpg)}
+.bordered-bg-img-2{background-image: url(../img/featured-bg-2.jpg)}
+.bordered-bg-img-3{background-image: url(../img/featured-bg-3.jpg)}
+.big-featured-img-bg{background-image: url(../img/featured-bg.jpg)}
+
+
+body {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #6f7166;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+}
+.section-padding {
+}
+.section-title span {
+  height: 5px;
+  width: 50px;
+  background: #6aaf08;
+  display: inline-block;
+  border-radius: 2px;
+  left: 0;
+  top: 0;
+}
+.section-title span.black-color {
+  background: #333;
+  width: 18px;
+  margin: 0 10px;
+}
+.section-padding {
+  padding: 80px 0;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.bordered-img {
+  height: 120px;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid #fff;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+}
+.single-featured-item {
+  margin-bottom: 30px;
+}
+.bordered-img:after {
+  content: "";
+  background: #6aaf08;
+  height: 120px;
+  width: 100px;
+  left: 8px;
+  top: 8px;
+  position: absolute;
+  z-index: -1;
+}
+.single-featured-item h3 {
+  border-bottom: 1px dashed #6aaf08;
+  padding-bottom: 10px;
+}
+.section-title h2 {
+  font-size: 35px;
+}
+.big-featured-img:after {
+  content:"";
+  height: 420px;
+  width: 100%;
+  background: #6aaf08;
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  z-index: -1;
+    background-image: url(../img/black-twill.png);
+}
+.big-featured-img {
+  height: 420px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border: 1px solid #fff;
+}
