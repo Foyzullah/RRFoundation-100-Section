@@ -1,0 +1,105 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+  padding: 80px 0;
+}
+.white-box {
+  box-shadow: 0 0 10px #f5f5f5;
+  padding: 30px;
+}
+.white-box {
+}
+input[type=text],input[type=email],input[type=tel],textarea {
+  background: #f9f9f9;
+  border: none;
+  padding: 15px;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+.contact-form input[type=submit] {
+  width: auto;
+  margin: 0;
+  border: none;
+  background: #4daefe;
+  color: #fff;
+  padding: 10px 15px;
+  font-weight: 700;
+}
+.white-box h4, .colored-box h4 {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.colored-box {
+  background: #4daefe;
+  color: #fff;
+  padding: 30px;
+}
+.colored-box a {
+  color: #fff;
+}
+.contact-info {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+.contact-info i.fa {
+  position: absolute;
+  left: 0;
+  top: 3px;
+  font-size: 20px;
+}
+.social-info a {
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  color: #333;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  margin-right: 10px;
+  box-shadow: 0 0 2px #f5f5f5;
+  transition: .3s;
+  margin-bottom: 57px;
+}
+.social-info a:hover {
+  color: #4daefe;
+}
