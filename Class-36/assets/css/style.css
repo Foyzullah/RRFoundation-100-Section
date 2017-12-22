@@ -1,0 +1,166 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+body {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.7;
+  background: #f5f6fa;
+  color: #848484;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+}
+
+
+.promo-box-area {
+  margin-left: -15px;
+  overflow: hidden;
+}
+.single-promo-box {
+  height: 350px;
+  width: 50%;
+  float: left;
+  text-align: center;
+  display: table;
+  background: #fff;
+}
+.promo-box-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 70px;
+  transition: .3s;
+}
+.promo-icon:before {
+  font-size: 70px;
+}
+.single-promo-box h2 {
+  font-size: 28px;
+  font-weight: 900;
+  position: relative;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+.single-promo-box h2:after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 50px;
+  left: 50%;
+  margin-left: -25px;
+  background: #d8889b;
+  bottom: 0;
+}
+.box-btn {
+  display: inline-block;
+  background: #7dbace;
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.single-promo-box:nth-child(2) {
+  background: #d8889b;
+  color: #fff;
+}
+.single-promo-box:nth-child(3) {
+  background: #7dbace;
+  color: #fff;
+}
+.single-promo-box:nth-child(2) .box-btn, .single-promo-box:nth-child(3) .box-btn {
+  background: #fff;
+  color: #333;
+}
+.single-promo-box:hover .promo-box-tablecell {
+  padding-top: 0;
+}
+.single-promo-box:hover .box-btn {
+  opacity: 1;
+  visibility: visible;
+}
+.promo-icon {
+  display: inline-block;
+  margin-left: -25px;
+}
+
+.single-promo-box:nth-child(2) h2, .single-promo-box:nth-child(3) h2 {
+  color: #fff;
+}
+.single-promo-box:nth-child(2) h2:after, .single-promo-box:nth-child(3) h2:after {
+  background: #fff;
+}
+
+.box-border-btn {
+  background: #fff;
+  border: 1px solid;
+  color: #7dbace;
+  padding: 15px 40px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 15px;
+  transition: .3s;
+}
+.box-border-btn:hover{
+    background: #7dbace;
+    color: #fff;
+}
+.content-right h3 {
+  color: #7dbace;
+  font-style: italic;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 400;
+}
+.content-right p {
+  margin-bottom: 40px;
+}
+.content-right h2 {
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+.content-right h4 {
+  font-weight: 400;
+  line-height: 1.7;
+}
+.content-right {
+  padding: 150px 40px;
+}
