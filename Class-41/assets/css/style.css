@@ -1,0 +1,98 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,500|Droid+Serif:400,400i,700,700i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Droid Serif', serif;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+a:hover { text-decoration: none }
+
+
+body {
+  background: #ebeaf0;
+}
+.colored-bg {
+  background: #76d3da;
+  color: #fff;
+  position: relative;
+}
+.slide-text {
+  padding-left: 100px;
+  font-weight: 500;
+  max-width: 500px;
+  line-height: 1.7;
+  padding-top: 70px;
+  padding-bottom: 90px;
+  max-height: 680px;
+}
+.absolute-img {
+  position: absolute;
+  right: -35px;
+  bottom: 0;
+}
+.top-ticker-text {
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 5px;
+}
+.top-ticker-text:after {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  left: 0;
+  bottom: 0;
+}
+.readmore-btn {
+  color: #333;
+  background: #f4f551;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  display: inline-block;
+  box-shadow: 0 10px 50px #f4f551;
+}
+.slide-text h2 {
+  font-size: 57px;
+  font-weight: 300;
+  line-height: 70px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.slide-text .readmore-btn {
+  margin-top: 30px;
+}
+.section-padding {
+  padding: 40px 0;
+}
+.colored-bg {
+}
