@@ -1,0 +1,149 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+  padding: 120px 0;
+}
+.section-padding.dark-bg {
+    background: #363636;
+  color: #b4b4b4;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.trailer-text h2 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 50px;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.trailer-text h2:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 15px;
+  background: #ff5151;
+}
+.trailer-text p {
+  line-height: 30px;
+}
+.see-more-btn {
+  color: #fff;
+  border: 2px solid #ff5151;
+  padding: 8px 20px;
+  width: 200px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.see-more-btn i.fa {
+  float: right;
+  padding: 4px;
+}
+
+.trailer-info {
+  position: relative;
+}
+.trailer-pricing-box {
+  position: absolute;
+  right: 160px;
+  background: #ff5151;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+  padding-top: 35px;
+  height: 320px;
+}
+.trailer-pricing-box p {
+  font-size: 14px;
+  opacity: .7;
+  padding: 0;
+  margin: 0;
+}
+.trailer-pricing-box .price-tag {
+  opacity: 1;
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.absolute-shopping-cart {
+  position: absolute;
+  left: -25px;
+  top: 25px;
+  color: #333;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  line-height: 50px;
+  font-size: 20px;
+  box-shadow: 0 0 10px #666;
+}
+.trailer-text {
+  padding-top: 60px;
+}
+.trailer-info img {
+  position: absolute;
+  z-index: 1;
+  padding-top: 150px;
+}
+
+div .owl-carousel .owl-item .trailer-info img{ width: auto; display: inline-block;}
+
+.featured-trailer-carousel .owl-dots div:nth-child(1) span:before{content: "01"}
+.featured-trailer-carousel .owl-dots div:nth-child(2) span:before{content: "02"}
+.featured-trailer-carousel .owl-dots div:nth-child(3) span:before{content: "03"}
+
+.featured-trailer-carousel .owl-dots div {
+  border-left: 2px solid #3d3d3d;
+  padding: 20px 10px;
+}
+.featured-trailer-carousel .owl-dots div.active {
+  border-color: #ff5151;
+}
+.featured-trailer-carousel .owl-dots {
+  position: absolute;
+  right: -30px;
+  top: 30%;
+}
