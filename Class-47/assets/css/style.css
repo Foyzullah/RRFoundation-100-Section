@@ -1,0 +1,108 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Roboto:300,300i,400,500,700,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    font-family: 'Lora', serif;
+}
+a:hover { text-decoration: none }
+
+.testimonial-bg{background-image: url(../img/testimonial-slider-background-black-1.jpg)}
+
+.section-padding.testimonial-bg {
+  background-size: cover;
+  background-position: center;
+  background-color: #333;
+}
+.section-padding {
+  padding: 100px 0;
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.single-testimonial-item img {
+  max-width: 100px;
+  border-radius: 50px;
+    margin: 0 auto;
+}
+.single-testimonial-item {
+  text-align: center;
+}
+.men-image {
+  margin-bottom: 20px;
+}
+.testimonial-content p {
+  font-style: italic;
+  margin-bottom: 25px;
+}
+.testimonial-content .employee-name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.testimonial-content .employee-name span {
+  display: block;
+  font-size: 70%;
+  margin-top: 8px;
+  font-weight: 300;
+}
+
+
+.testimonial-carousel:before {
+  font-family: 'fontawesome';
+  left: -20px;
+  top: 124px;
+  content: "\f10d";
+  position: absolute;
+  font-size: 25px;
+}
+.testimonial-carousel::after {
+  font-family: fontawesome;
+  font-size: 25px;
+  content: "\f10e";
+  right: -15px;
+  bottom: 70px;
+  position: absolute;
+}
+
+.testimonial-carousel .owl-dots div {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  background: #2e4450;
+  margin: 5px;
+  border-radius: 50px;
+}
+.testimonial-carousel .owl-dots div.active {
+  background: #fff;
+}
+.testimonial-carousel .owl-dots {
+  bottom: -35px;
+  left: 46%;
+  position: absolute;
+}
