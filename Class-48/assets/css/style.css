@@ -1,0 +1,129 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+  padding: 100px 0;
+}
+.pricing-table {
+  overflow: hidden;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.single-pricing-item {
+  width: 33.333%;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  color: #707070;
+  line-height: 35px;
+  margin-top: 30px;
+  box-shadow: 0 0 10px #f3f3f3;
+  position: relative;
+  z-index: 1;
+}
+.pricing-heading {
+  background: #f9f9f9;
+  font-size: 14px;
+  line-height: 25px;
+  padding: 45px;
+}
+.pricing-heading h4 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.pricing-heading h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #333;
+}
+.pricing-content {
+  padding: 30px;
+}
+.pricing-content ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.pricing-content .pricing-btn {
+  border: 1px solid;
+  color: #f91942;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-top: 40px;
+  font-weight: 700;
+}
+.active .pricing-heading {
+  background: #f91942;
+  color: #fff;
+}
+.active .pricing-heading h1 {
+  color: #fff;
+}
+.single-pricing-item.active {
+  border-radius: 5px;
+  margin-top: 0;
+  position: relative;
+  z-index: 2;
+  margin-left: -.5%;
+  margin-right: -.5%;
+  width: 34.333%;
+  background: #fff;
+}
+.active .pricing-heading {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+    border-radius: 3px 3px 0 0;
+}
+.active .pricing-heading:after {
+  position: absolute;
+  content: "Featured";
+  right: -42px;
+  top: 32px;
+  background: #fff;
+  color: #f91942;
+  font-size: 20px;
+  transform: rotate(45deg);
+  padding: 6px;
+  width: 190px;
+}
+.active .pricing-content .pricing-btn {
+  background: #f91942;
+  color: #fff;
+}
+.active .pricing-content {
+  padding: 62px;
+}
