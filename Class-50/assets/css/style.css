@@ -1,0 +1,148 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+a:hover { text-decoration: none }
+
+.listing-item-bg-1{background-image: url(../img/photo-bg-1.jpg)}
+.listing-item-bg-2{background-image: url(../img/photo-bg-2.jpg)}
+.listing-item-bg-3{background-image: url(../img/photo-bg-3.jpg)}
+.listing-item-bg-4{background-image: url(../img/photo-bg-4.jpg)}
+.listing-item-bg-5{background-image: url(../img/photo-bg-5.png)}
+.listing-item-bg-6{background-image: url(../img/photo-bg-6.jpeg)}
+.listing-item-bg-7{background-image: url(../img/photo-bg-7.jpg)}
+.listing-item-bg-8{background-image: url(../img/photo-bg-8.jpg)}
+.listing-item-bg-9{background-image: url(../img/photo-bg-9.jpg)}
+.listing-item-bg-10{background-image: url(../img/photo-bg-10.jpg)}
+
+
+.section-padding {
+  padding: 70px 0;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section-title h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.section-title p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.single-listing-item {
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  height: 350px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+.listing-hover {
+  position: absolute;
+  color: #fff;
+  bottom: 40px;
+  left: 10%;
+  width: 80%;
+}
+.listing-hover .brder-btn {
+  display: inline-block;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+.listing-hover h3 {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+.listing-hover p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.single-listing-item:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  z-index: -1;
+  opacity: .4;
+  border-radius: 5px;
+}
+
+.listing-carousel.owl-carousel .owl-stage-outer {
+  overflow: inherit;
+}
+.section-padding.listing-carousel-wrap {
+  overflow-x: hidden;
+}
+.listing-carousel {
+  position: relative;
+}
+.listing-carousel::before,.listing-carousel::after {
+  position: absolute;
+  content: "";
+  left: -500%;
+  top: 0;
+  width: 500%;
+  height: 100%;
+  background: #fff;
+  z-index: 1;
+  opacity: .7;
+}
+.listing-carousel::after {
+  right: -500%;
+  left: auto;
+}
+.listing-carousel .owl-dots div {
+  height: 15px;
+  width: 15px;
+  border: 2px solid #bfbfbf;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 5px;
+    transition: .3s;
+}
+.listing-carousel .owl-dots div.active {
+  background: #bfbfbf;
+}
+.listing-carousel .owl-dots {
+  text-align: center;
+  margin-top: 30px;
+}
