@@ -1,0 +1,67 @@
+	/*
+  	medical-icon icon font: medical-icon
+  	Creation date: 20/12/2017 09:51
+  	*/
+
+@font-face {
+  font-family: "MedicalIcon";
+  src: url("../fonts/medical-icon.eot");
+  src: url("../fonts/medical-icon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/medical-icon.woff") format("woff"),
+       url("../fonts/medical-icon.ttf") format("truetype"),
+       url("../fonts/medical-icon.svg#medical-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "MedicalIcon";
+    src: url("../fonts/medical-icon.svg#MedicalIcon") format("svg");
+  }
+}
+
+[class^="medical-icon-"]:before, [class*=" medical-icon-"]:before,
+[class^="medical-icon-"]:after, [class*=" medical-icon-"]:after {   
+  font-family: MedicalIcon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.medical-icon-001-x-ray:before { content: "\f100"; }
+.medical-icon-002-wheelchair:before { content: "\f101"; }
+.medical-icon-003-walker:before { content: "\f102"; }
+.medical-icon-004-thermometer:before { content: "\f103"; }
+.medical-icon-005-teeth:before { content: "\f104"; }
+.medical-icon-006-syringe:before { content: "\f105"; }
+.medical-icon-007-stretcher:before { content: "\f106"; }
+.medical-icon-008-stomach:before { content: "\f107"; }
+.medical-icon-009-stethoscope:before { content: "\f108"; }
+.medical-icon-010-saline:before { content: "\f109"; }
+.medical-icon-011-plaster:before { content: "\f10a"; }
+.medical-icon-012-patient:before { content: "\f10b"; }
+.medical-icon-013-snellen:before { content: "\f10c"; }
+.medical-icon-014-doctor-1:before { content: "\f10d"; }
+.medical-icon-015-microscope:before { content: "\f10e"; }
+.medical-icon-016-pills:before { content: "\f10f"; }
+.medical-icon-017-medicine:before { content: "\f110"; }
+.medical-icon-018-lungs:before { content: "\f111"; }
+.medical-icon-019-liver:before { content: "\f112"; }
+.medical-icon-020-kidneys:before { content: "\f113"; }
+.medical-icon-021-hospital:before { content: "\f114"; }
+.medical-icon-022-hospital-bed:before { content: "\f115"; }
+.medical-icon-023-helicopter:before { content: "\f116"; }
+.medical-icon-024-heart-rate:before { content: "\f117"; }
+.medical-icon-025-heart:before { content: "\f118"; }
+.medical-icon-026-first-aid-kit:before { content: "\f119"; }
+.medical-icon-027-family:before { content: "\f11a"; }
+.medical-icon-028-eye:before { content: "\f11b"; }
+.medical-icon-029-ear:before { content: "\f11c"; }
+.medical-icon-030-pipette:before { content: "\f11d"; }
+.medical-icon-031-doctor:before { content: "\f11e"; }
+.medical-icon-032-dna:before { content: "\f11f"; }
+.medical-icon-033-brain:before { content: "\f120"; }
+.medical-icon-034-blood-pressure:before { content: "\f121"; }
+.medical-icon-035-transfusion:before { content: "\f122"; }
+.medical-icon-036-ambulance:before { content: "\f123"; }
