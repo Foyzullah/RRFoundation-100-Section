@@ -1,0 +1,111 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+  padding: 80px 0;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.section-title h2 {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.testimonial-top img {
+  max-width: 110px;
+  margin-top: -50px;
+  display: inline-block;
+}
+.testimonial-top h3 {
+  display: inline-block;
+  text-align: left;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  color: #333;
+  margin-bottom: 50px;
+}
+.testimonial-top {
+  text-align: center;
+  padding-top: 40px;
+}
+.testimonial-top h3 span {
+  font-size: 80%;
+  color: #818181;
+  margin-top: 10px;
+  display: inline-block;
+  text-transform: none;
+  font-weight: 300;
+}
+.single-testimonial-item {
+  color: #818181;
+  font-size: 16px;
+  line-height: 25px;
+  box-shadow: 0 0 10px #f7f7f7;
+  padding: 45px 80px;
+}
+.author-name img {
+  max-width: 70px;
+  border-radius: 50%;
+  margin-top: -15px;
+}
+.author-name h3 {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+.author-name {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 260px;
+  overflow-y: scroll;
+}
+.author-name h3 span {
+  font-size: 80%;
+  text-transform: none;
+  display: inline-block;
+  opacity: .5;
+  padding-top: 6px;
+}
+.author-name a {
+  color: #333;
+}
+.author-name li {
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
