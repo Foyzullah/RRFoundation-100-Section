@@ -1,4 +1,5 @@
 /* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 .alignleft {
     float: left;
     margin-right: 15px;
@@ -26,7 +27,7 @@ h6 {
     font-weight: 700;
 }
 body {
-
+    font-family: 'Roboto', sans-serif;
 }
 a:hover { text-decoration: none }
 
@@ -95,6 +96,7 @@ a:hover { text-decoration: none }
   height: 260px;
   overflow-y: scroll;
 }
+
 .author-name h3 span {
   font-size: 80%;
   text-transform: none;
@@ -108,4 +110,39 @@ a:hover { text-decoration: none }
 .author-name li {
   padding-top: 15px;
   margin-bottom: 20px;
+    opacity: .5;
+}
+.author-name li.active{
+    opacity: 1;
+}
+
+.testimonial-wraper {
+  position: relative;
+}
+.testimonial-left-text {
+  position: absolute;
+  font-size: 40px;
+  text-transform: uppercase;
+  opacity: .2;
+  z-index: 1;
+  transform: rotate(270deg);
+  width: 350px;
+  left: -201px;
+  bottom: 130px;
+}
+.testimonial-left-text:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  background: #333;
+  opacity: .2;
+}
+
+.testimonial-left-text span {
+  background: #fff;
+  position: relative;
+  z-index: 2;
 }
