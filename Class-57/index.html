@@ -8,6 +8,7 @@
         <title>Quickstart pack</title>
 
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/perfect-scrollbar.css" rel="stylesheet">
         <link href="assets/css/font-awesome.min.css" rel="stylesheet">
         <link href="assets/css/style.css" rel="stylesheet">
         <link href="assets/css/responsive.css" rel="stylesheet">
@@ -20,35 +21,71 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title">
-                            <h2>Terstimonial</h2>
+                            <h2>Testimonial</h2>
                         </div>
                     </div>
                 </div>
                 
-                <div class="row">
+                <div class="row testimonial-wraper">
+                      <h2 class="testimonial-left-text"><span>Testimonial</span></h2>
                     <div class="col-md-9">
-                       
-                        <div class="single-testimonial-item">
-                            <div class="testimonial-top">
-                                <img src="assets/img/photo-1.jpg" alt="">
-                                <h3>Tamim Iqbal <br> <span>Designer</span></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quasi molestias et enim distinctio deserunt delectus corporis ipsum iure assumenda. Amet saepe laborum cum tempora laboriosam molestiae sapiente iusto odio.</p>
-                            </div>
-                        </div>
+                       <div class="tab-content">
+                           <div class="tab-pane fade in active" id="tamimiqbal">
+                               <div class="single-testimonial-item">
+                                    <div class="testimonial-top">
+                                        <img src="assets/img/photo-1.jpg" alt="">
+                                        <h3>Tamim Iqbal <br> <span>Designer</span></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quasi molestias et enim distinctio deserunt delectus corporis ipsum iure assumenda. Amet saepe laborum cum tempora laboriosam molestiae sapiente iusto odio.</p>
+                                    </div>
+                                </div>
+                           </div>
+                           <div class="tab-pane fade" id="jerinkhan">
+                               <div class="single-testimonial-item">
+                                    <div class="testimonial-top">
+                                        <img src="assets/img/photo-2.jpg" alt="">
+                                        <h3>Jerin Khan <br> <span>Fashion Designer</span></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quasi molestias et enim distinctio deserunt delectus corporis ipsum iure assumenda. Amet saepe laborum cum tempora laboriosam molestiae sapiente iusto odio.</p>
+                                    </div>
+                                </div>
+                           </div>
+                           <div class="tab-pane fade" id="jenefar">
+                               <div class="single-testimonial-item">
+                                    <div class="testimonial-top">
+                                        <img src="assets/img/photo-3.jpg" alt="">
+                                        <h3>Jenefar <br> <span>Designer</span></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quasi molestias et enim distinctio deserunt delectus corporis ipsum iure assumenda. Amet saepe laborum cum tempora laboriosam molestiae sapiente iusto odio.</p>
+                                    </div>
+                                </div>
+                           </div>
+                           <div class="tab-pane fade" id="nafisiqbal">
+                               <div class="single-testimonial-item">
+                                    <div class="testimonial-top">
+                                        <img src="assets/img/photo-4.jpg" alt="">
+                                        <h3>Nafis Iqbal <br> <span>Web Developer</span></h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quasi molestias et enim distinctio deserunt delectus corporis ipsum iure assumenda. Amet saepe laborum cum tempora laboriosam molestiae sapiente iusto odio.</p>
+                                    </div>
+                                </div>
+                           </div>
+                       </div>
+                        
                     </div>
                     <div class="col-md-3">
                         <ul class="author-name">
-                            <li class="active"><a href="">
+                            <li class="active"><a data-toggle="tab" href="#tamimiqbal">
                                 <img src="assets/img/photo-1.jpg" alt="">
                                 <h3>Tamim Iqbal <br> <span>Designer</span></h3>
                             </a></li>
-                            <li><a href="">
-                                <img src="assets/img/photo-1.jpg" alt="">
-                                <h3>Tamim Iqbal <br> <span>Designer</span></h3>
+                            <li><a data-toggle="tab" href="#jerinkhan">
+                                <img src="assets/img/photo-2.jpg" alt="">
+                                <h3>Jerin Khan <br> <span>Fashion Designer</span></h3>
                             </a></li>
-                            <li><a href="">
-                                <img src="assets/img/photo-1.jpg" alt="">
-                                <h3>Tamim Iqbal <br> <span>Designer</span></h3>
+                            <li><a data-toggle="tab" href="#jenefar">
+                                <img src="assets/img/photo-3.jpg" alt="">
+                                <h3>Jenefar <br> <span>Designer</span></h3>
+                            </a></li>
+                            <li><a data-toggle="tab" href="#nafisiqbal">
+                                <img src="assets/img/photo-3.jpg" alt="">
+                                <h3>Nafis Iqbal <br> <span>Web Developer</span></h3>
                             </a></li>
                         </ul>
                     </div>
@@ -57,7 +94,9 @@
         </div>
 
         <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/perfect-scrollbar.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/main.js"></script>
     </body>
 </html>
+     
