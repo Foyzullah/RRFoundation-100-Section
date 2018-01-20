@@ -31,9 +31,80 @@ body {
 a:hover { text-decoration: none }
 
 
+.header-area {
+  background: #263238;
+  padding: 15px 0;
+  width: 100%;
+  z-index: 99;
+}
+.mainmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+.mainmenu li {
+  display: inline-block;
+  padding: 9px;
+}
+.mainmenu li a {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-left: 5px;
+}
+.single-slide-area h2 {
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+.single-slide-area {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 35px;
+  background: #263238;
+  color: #fff;
+    z-index: 9;
+    position: relative;
+}
+.single-slide-area img {
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+  max-height: 360px;
+}
+.slide-text {
+  padding: 150px 0;
+}
+.single-slide-area .row {
+  min-height: 400px;
+  position: relative;
+}
+.hero-area {
+  text-align: center;
+  padding: 100px;
+  font-size: 16px;
+  line-height: 35px;
+    margin-bottom: 420px;
+    position: relative;
+    z-index: 9;
+    background: #fff;
+}
+.title {
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+
 .footer-area {
-  background: #14adf3;
+  background: #263238;
   padding: 80px 0;
+    padding-bottom: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%
 }
 .footer-area, .footer-area a {
   color: #fff;
