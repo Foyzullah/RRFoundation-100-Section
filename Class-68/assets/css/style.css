@@ -1,0 +1,245 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.gradient-overlay{background-image: url(../img/background.jpg)}
+.gradient-overlay:after{
+    background: #2f2189;
+background: -moz-linear-gradient(-45deg, #2f2189 0%, #f9d9de 100%);
+background: -webkit-linear-gradient(-45deg, #2f2189 0%,#f9d9de 100%);
+background: linear-gradient(135deg, #2f2189 0%,#f9d9de 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f2189', endColorstr='#f9d9de',GradientType=1 );
+}
+
+
+.gradient-overlay {
+  position: relative;
+  z-index: 1;
+  background-position: center;
+  background-size: cover;
+  background-color: #333;
+}
+.gradient-overlay:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: .7;
+}
+
+
+.logo img {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 0;
+  padding: 0;
+}
+.mainmenu ul {
+  list-style: none;
+}
+.mainmenu li {
+  display: inline-block;
+}
+.mainmenu li a {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  opacity: .5;
+  padding: 26px;
+}
+.mainmenu li:hover a {
+  opacity: 1;
+}
+.header-area {
+  position: relative;
+  z-index: 1;
+  padding: 15px 0;
+}
+.header-area:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  left: 0;
+  bottom: 0;
+  opacity: .2;
+}
+.mobile-screen {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.text-area {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 450px;
+  padding: 139px 0;
+}
+.text-area h1 {
+  font-size: 45px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.text-area p {
+  opacity: .6;
+}
+.box-btn {
+  color: #fff;
+  border: 1px solid;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.box-border {
+  text-decoration: underline;
+  color: #fff;
+}
+.box-border-btn a {
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.box-border-btn {
+  margin-top: 30px;
+}
+
+/* DropDown Menu */
+
+.mainmenu li {
+  position: relative;
+}
+.mainmenu li ul {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 150px;
+  z-index: -1;
+  text-align: left;
+  opacity: 0;
+  transition: .3s;
+  visibility: hidden;
+}
+.mainmenu li ul a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.mainmenu li ul li {
+  display: block;
+}
+.mainmenu ul {
+  margin: 0;
+  padding: 0;
+}
+.mainmenu li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  top:75px;
+    z-index: 99;
+}
+
+/* Mega Menu */
+
+
+.mainmenu li.mega-menu {
+  position: static;
+}
+.mega-menu-wrapper {
+  position: absolute;
+  width: 100%;
+  left: 0;
+ border: 2px solid #fff;
+  padding: 10px;
+  z-index: -2;
+    border-radius:5px;
+    top: 50px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    color: #fff;
+}
+.mainmenu li.mega-menu ul {
+  left: auto;
+  top: auto;
+  opacity: 1;
+  visibility: visible;
+  position: relative;
+  padding: 0;
+  width: auto;
+}
+.mainmenu li.mega-menu li a {
+  color: #ff;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s;
+}
+.menu-cta {
+  text-align: center;
+  font-size: 14px;
+  line-height: 25px;
+}
+.menu-cta h4 {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.purchase-btn {
+  background: green;
+  color: #fff;
+  display: inline-block;
+  border-radius: 50px;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 18px;
+}
+.mainmenu li.mega-menu:hover .mega-menu-wrapper{
+    opacity: 1;
+    visibility: visible;
+    top: 75px;
+    z-index: 99;
+}
+
+.mega-menu-wrapper h5 {
+  left: 0;
+  text-align: left;
+  padding-left: 25px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 300;
+}
