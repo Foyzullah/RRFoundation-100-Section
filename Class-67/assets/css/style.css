@@ -118,11 +118,13 @@ html, body {
   transition: .3s;
 }
 .social-links {
-  text-align: center;
-  padding: 35px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
 }
 .copyright-area {
   text-align: center;
+    padding: 10px;
 }
 .copyright-area span {
   color: #ffb607;
