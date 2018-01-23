@@ -1,0 +1,107 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.countdown-area{background-image: url(../img/countdown.png)}
+
+
+
+html, body {
+  height: 100%;
+}
+.countdown-area {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: table;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.countdown-area-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.countdown-area:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  z-index: -1;
+  opacity: .8;
+}
+.countdown-area-inner h2 {
+  font-size: 45px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.countdown-area-inner h3 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.subscribe-form input {
+  padding: 10px;
+  width: 30%;
+  border-radius: 50px;
+  border: none;
+  font-style: italic;
+  margin-top: 10px;
+}
+.subscribe-form input[type=submit] {
+  font-style: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #045eef;
+  color: #fff;
+}
+
+.countdown-wrapper{
+    margin-top: 50px;
+}
+.single-countdown-item {
+  font-size: 80px;
+  line-height: 70px;
+  display: inline-block;
+  padding: 30px;
+  text-align: center;
+}
+.single-countdown-item span {
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 60px;
+  font-weight: 700
+}
