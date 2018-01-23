@@ -1,0 +1,68 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html, body {
+    height: 100%;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding.section-bg {
+  background: #03c1c4;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #fff;
+}
+.section-padding {
+  padding: 80px 0;
+    height: 100%;
+}
+.image-left {
+  position: relative;
+  z-index: 1;
+}
+.image-left:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: .5;
+}
+.right-content {
+  padding: 0 30px;
+}
+.progress-bar-section h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.progress-bar-section {
+  margin-top: 30px;
+}
