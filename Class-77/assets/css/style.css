@@ -1,0 +1,98 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.feature-bg-1 .feature-bg{background-image: url(../img/section-bg-1.jpg)}
+.feature-bg-2 .feature-bg{background-image: url(../img/section-bg-2.jpg!d)}
+.feature-bg-3 .feature-bg{background-image: url(../img/section-bg-3.jpg)}
+.feature-bg-4 .feature-bg{background-image: url(../img/section-bg-4.jpg)}
+
+
+
+.single-feature-item {
+  position: relative;
+  z-index: 1;
+}
+.feature-bg {
+  position: absolute;
+  content: "";
+  left: 25%;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+.section-padding {
+  padding: 80px 0;
+}
+.single-feature-text {
+  font-size: 15px;
+  line-height: 1.7;
+  background: #fff;
+  box-shadow: 0 0 15px #f9f9f9;
+  padding: 100px;
+  font-weight: 300;
+  border-bottom: 3px solid #fe5d40;
+  position: relative;
+}
+.single-feature-text h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.feature-no {
+  font-size: 50px;
+  font-weight: 700;
+  color: #dcdcdc;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+}
+.feature-no:after {
+  position: absolute;
+  right: -38px;
+  top: 53px;
+  height: 2px;
+  width: 95px;
+  background: #dcdcdc;
+  content: "";
+  transform: rotate(-45deg);
+}
+.feature-bg-2 .single-feature-text {
+  border-color: #2bc893;
+}
+.feature-bg-3 .single-feature-text {
+  border-color: #b07af4;
+}
+.feature-bg-4 .single-feature-text {
+  border-color: #fdbb5a;
+}
