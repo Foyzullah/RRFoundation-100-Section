@@ -1,0 +1,175 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+a:hover { text-decoration: none }
+
+.welcome-area{ background-image: url(../img/background.jpg)}
+
+
+body, html {
+  height: 100%;
+}
+.welcome-area {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  background-color: #333;
+}
+.welcome-area:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #fff;
+  z-index: -1;
+  opacity: .8;
+}
+.logo img {
+  max-width: 40px;
+  padding-right: 5px;
+}
+.logo a {
+  color: #ef4043;
+}
+.logo h1 {
+  font-size: 25px;
+  font-weight: 900;
+  margin: 0;
+}
+.mainmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mainmenu li {
+  display: inline-block;
+}
+.mainmenu li a {
+  color: #333;
+  text-transform: uppercase;
+  display: block;
+  padding: 10px 25px;
+}
+.mainmenu li.bordered a{
+  border: 1px solid;
+  color: #ef4043;
+  border-radius: 50px;
+}
+.header-area {
+	padding: 15px 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+    z-index: 9;
+}
+
+.copyright-area {
+  background: #42413e;
+  font-size: 85%;
+  padding: 10px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+    z-index: 9;
+}
+.copyright-area, .copyright-area a {
+  color: #999;
+}
+.copyright-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.copyright-area li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.body-contant-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.body-contant-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.contant {
+  font-size: 20px;
+  font-weight: 300;
+}
+.contant h2 {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 65px;
+}
+.request-video p {
+  font-size: 14px;
+}
+.request-video {
+  margin-top: 40px;
+  font-size: 14px;
+  max-width: 555px;
+}
+.request-video input[type=email] {
+  border: none;
+  background: #fff;
+  font-weight: 400;
+  padding: 15px;
+  border-radius: 5px;
+  margin-right: 5px;
+  width: 60%;
+}
+.request-video {
+}
+button[type=submit] {
+  border: none;
+  background: #ef4043;
+  color: #fff;
+  font-weight: 900;
+  padding: 14px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.social-icon a {
+  color: #42413e;
+  margin-top: 10px;
+  font-size: 20px;
+  padding-right: 10px;
+  display: inline-block;
+}
