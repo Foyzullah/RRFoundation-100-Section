@@ -1,0 +1,101 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+
+.
+.section-padding {
+  padding: 100px 0;
+}
+.section-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.single-image img {
+  max-width: 70%;
+}
+.single-image {
+  text-align: right;
+}
+.text-section {
+  border: 5px solid #eeeeee;
+  padding: 30px;
+  position: relative;
+  margin-top: -90px;
+  background: #fff;
+  margin-right: 70px;
+  padding-right: 60px;
+}
+.text-section h2 {
+  text-align: center;
+}
+.social-links {
+  display: table;
+  width: 100%;
+  position: absolute;
+  right: -28px;
+  height: 100%;
+  width: 40px;
+  top: 0;
+}
+.social-links-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.social-links a {
+  display: inline-block;
+  background: #efefef;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 38px;
+  font-size: 18px;
+  color: #333;
+    transition: .3s;
+    margin: 5px;
+}
+.single-image.right-side {
+  text-align: left;
+}
+.text-section.right-side {
+  margin-left: 70px;
+  margin-right: 0;
+  padding-left: 50pxpx;
+}
+.right-side .social-links {
+  left: -28px;
+}
+.social-links a:hover {
+  color: #fff;
+  background: #00aeff;
+}
