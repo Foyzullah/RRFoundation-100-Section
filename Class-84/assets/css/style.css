@@ -1,0 +1,135 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.flipbox-area {
+    padding: 70px 0;
+    background: #f3f3f3;
+}
+
+.section-title h2 {
+    text-align:  center;
+    font-weight:  300;
+    font-size:  40px;
+    margin-bottom: 45px;
+}
+
+.flipboxed-service {
+    text-align:  center;
+    font-size:  20px;
+    background:  #fff;
+    padding: 50px;
+    height: 250px;
+    border-bottom: 4px solid black;
+}
+.back .flipboxed-service {
+    text-align:  center;
+    font-size:  20px;
+    background:  #333;
+    padding: 50px;
+    height: 250px;
+    border-bottom: 4px solid black;
+    color: #fff;
+}
+
+.flipboxed-service i.fa {
+    font-size: 100px;
+    margin-bottom: 30px;
+    display:  table;
+    width: 100%;
+}
+
+.flipboxed-service-tablecell {
+    display:  table-cell;
+    vertical-align:  middle;
+    width:  100%;
+    text-align:  center;
+    height:  100%;
+}
+
+
+
+.flipboxed {
+	margin: 0 auto;
+	height: 300px;  
+	position: relative;
+	-webkit-perspective: 600px;
+	-moz-perspective: 600px;
+}
+
+
+	
+.flipboxed .front {
+	height: inherit;
+	position: absolute;
+	top: 0;
+	z-index: 900;
+	text-align: center;
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	   -moz-transform: rotateX(0deg) rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+
+.flipboxed .back {
+	height: inherit;
+	position: absolute;
+	top: 0;
+	z-index: 1000;
+	-webkit-transform: rotateY(-180deg);
+	   -moz-transform: rotateY(-180deg);
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+.flipboxed.flip .front {
+	z-index: 900;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+}
+.flipboxed.flip .back {
+	z-index: 1000;
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	-moz-transform: rotateX(0deg) rotateY(0deg);
+}
