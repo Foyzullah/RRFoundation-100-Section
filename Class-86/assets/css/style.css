@@ -1,0 +1,115 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-bg-1 {background-image: url(../img/section-bg-1.jpg)}
+.section-bg-2 {background-image: url(../img/section-bg-2.jpg)}
+
+
+.special-area {
+    padding: 50px 0;
+    font-size:  16px;
+    line-height: 1.8;
+    color: #6d6d6d;
+}
+
+.styled-bg-inner {
+    background-size:  cover;
+    background-position:  center;
+    background-color:  #ddd;
+    height:  100%;
+    width:  100%;
+    left:  0;
+    top:  0;
+    position:  absolute;
+}
+
+.styled-bg {
+    height: 400px;
+    position:  relative;
+    z-index: 2;
+    margin-left: -70px;
+    margin-bottom: 150px;
+}
+
+.styled-bg:after {
+    position:  absolute;
+    left: -30px;
+    bottom: -30px;
+    height:  100%;
+    width:  100%;
+    content:  "";
+    background: #f4f4f4;
+    z-index: -1;
+}
+
+right-side .styled-bg:after {
+    right: -30px;
+    
+}
+
+.styled-bg:before {
+    position:  absolute;
+    right: 30%;
+    bottom: -53px;
+    height: 70px;
+    width:  2px;
+    content:  "";
+    background: #ca9e5f;
+    z-index: 1;
+}
+.right-side .styled-bg:before {
+    left: 30%;
+}
+
+h2.specila-section-title {
+    background:  #fff;
+    font-size:  50px;
+    margin-left: -180px;
+    z-index: 3;
+    position:  relative;
+    padding: 20px 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.lode-more-btn {
+    display:  inline-block;
+    border-bottom: 3px solid #c6a361;
+    margin-bottom: 35px;
+}
+
+.lode-more-btn i.fa {
+    color:  #333;
+    margin-top: 23px;
+    font-weight: 700;
+}
