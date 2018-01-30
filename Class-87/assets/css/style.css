@@ -1,0 +1,109 @@
+/* Base CSS */
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('../fonts/AsiyahScript.eot');
+    src: url('../fonts/AsiyahScript.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AsiyahScript.woff2') format('woff2'),
+        url('../fonts/AsiyahScript.woff') format('woff'),
+        url('../fonts/AsiyahScript.ttf') format('truetype'),
+        url('../fonts/AsiyahScript.svg#AsiyahScript') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: normal;
+    font-family: 'Asiyah Script';
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+html, body{
+    height: 100%;
+}
+.slide-bg-1{background-image: url(../img/slider-bg-1.jpg)}
+.slide-bg-2{background-image: url(../img/slider-bg-2.jpg)}
+.slide-bg-3{background-image: url(../img/slider-bg-3.jpg)}
+
+
+.single-slide-item {
+    background-size:  cover;
+    background-position:  center bottom;
+    background-color:  #ddd;
+    display:  table;
+    width:  100%;
+}
+
+.slide-item-tablecell {
+    display:  table-cell;
+    vertical-align:  middle;
+    width:  100%;
+    text-align:  center;
+    color:  #fff;
+    font-size:  16px;
+}
+
+.slide-item-tablecell
+ h2 {
+    font-size:  150px;
+    color:  #fff;
+    margin: 0;
+}
+
+.view-more-btn {
+    display:  inline-block;
+    background: #d8085e;
+    color: #fff;
+    padding:  10px 40px;
+    border-radius:  5px;
+    margin-top: 30px;
+}
+ .homepage-slides, .homepage-slides div {
+    height: 100%; 
+}
+ 
+.homepage-slides div.slide-item-tablecell, .homepage-slides div.slide-item-tablecell div, .homepage-slides div.owl-nav, .homepage-slides div.owl-nav div, .homepage-slides div.owl-dots, .homepage-slides div.owl-dots div {
+    height:  auto;
+}
+
+.homepage-slides .owl-nav div {
+    position:  absolute;
+    font-size:  40px;
+    left:  30px;
+    top:  50%;
+    color:  #fff;
+    line-height:  60px;
+    margin-top: -30px;
+}
+
+.homepage-slides .owl-nav div.owl-next {
+    left:  auto;
+    right:  30px;
+}
+
+
