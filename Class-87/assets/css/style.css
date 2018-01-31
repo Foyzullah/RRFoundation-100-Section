@@ -105,5 +105,25 @@ html, body{
     left:  auto;
     right:  30px;
 }
+.homepage-slides .owl-dot img {
+    width: 80px;
+    height: 80px;
+}
+
+.homepage-slides .owl-dots div {
+    display:  inline-block;
+    margin-left:  5px;
+    opacity: .5;
+}
+
+.homepage-slides .owl-dots div.active {
+    opacity:  1;
+}
+
+.homepage-slides .owl-dots {
+    right: 80px;
+    bottom: 0;
+    position:  absolute;
+}
 
 
