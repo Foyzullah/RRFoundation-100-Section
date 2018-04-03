@@ -1,0 +1,48 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    .header-text h1{ color: red}
+.single-service-item{ height: 450px}
+.contact-form textarea {
+  height: 100px;
+}
+.contact-form button {
+  margin-top: 10px;
+}
+.about-element img {
+    max-width:  300px;
+}
+.about-content {
+    padding-left:  350px;
+    padding-top:  30px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.about-content h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.single-project-item h4 {
+  font-size: 15px;
+    letter-spacing: 3px;
+}
+.view-more-btn {
+  padding: 8px 10px;
+    font-size: 13px;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    .header-text h1{ color: blue}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+    .header-text h1{ color: yellow}
+}

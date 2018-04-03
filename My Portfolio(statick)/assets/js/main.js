@@ -36,6 +36,26 @@
         }).on('circle-animation-progress', function(event, progress) {
             $(this).find('.progressbar-percentage').html(Math.round(75 * progress) + '<i>%</i>');
         });
+        $("#wordpress-progress").circleProgress({
+            value: 0.75,
+            size: 200,
+            fill: '#4286f4',
+            thickness: 2,
+            emptyFill: '#fff',
+            startAngle: 300,
+        }).on('circle-animation-progress', function(event, progress) {
+            $(this).find('.progressbar-percentage').html(Math.round(75 * progress) + '<i>%</i>');
+        });
+        $("#php-progress").circleProgress({
+            value: 0.75,
+            size: 200,
+            fill: '#4286f4',
+            thickness: 2,
+            emptyFill: '#fff',
+            startAngle: 300,
+        }).on('circle-animation-progress', function(event, progress) {
+            $(this).find('.progressbar-percentage').html(Math.round(75 * progress) + '<i>%</i>');
+        });
         
         
         // MASONRY PORTFOLIO//
@@ -48,11 +68,32 @@
         
         // gmap3
         
-        $(".map").gmap3({
-            address: "Khulna, Bnagladesh",
-            zoom: 10,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-        });
+          var center = [22.8454448, 89.4624607];
+    $('.map')
+      .gmap3({
+        center: center,
+        zoom: 8,
+        mapTypeId : google.maps.MapTypeId.ROADMAP
+      })
+      .marker({
+        position: center
+      })
+      .overlay({
+        position: center,
+        content:  '<div style="color:#000000; border:1px solid #FF0000;background-color: #00FF00; width:100px; line-height:20px; height: 20px; text-align:center; border-radius: 2px">' +
+          'Khulna, Bangladesh' +
+        '</div>',
+        x:12,
+        y:-32
+      })
+      .on({
+        mouseover: function (overlay) {
+          overlay.$.find(">*").css({backgroundColor: "#CCCCCC"})
+        },
+        mouseout: function (overlay) {
+          overlay.$.find(">*").css({backgroundColor: "#00FF00"})
+        }
+      });
         
         
         // STICKY NAVBAR
@@ -69,12 +110,29 @@
         
         //PRALLAX ANIMATION//
         
-        var s = skrollr.init({
+       /* var s = skrollr.init({
             render: function(data){
                 
             }
         });
-        
+        */
+    $(function () {
+  // initialize skrollr if the window width is large enough
+  if ($(window).width() > 767) {
+    skrollr.init({
+        render: function(data){
+            
+        }
+    });
+  }
+
+  // disable skrollr if the window is resized below 768px wide
+  $(window).on('resize', function () {
+    if ($(window).width() <= 767) {
+      skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+    }
+  });
+});
         
         // TYPED.JS
         
@@ -132,6 +190,20 @@
     });
    }              
 }
+        
+        
+        // owl-carousel//
+        
+        $(".carousel-item").owlCarousel({
+            items: 3,
+            autoplay: true,
+            navText: false,
+            nav: false,
+            dots: true,
+            margin: 30,
+            smartSpeed: 1000,
+        });
+        
         
         
         
